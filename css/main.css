@@ -7,19 +7,26 @@ html {
   background-image: linear-gradient(#ff9500, #ff5e3a);
 }
 
-btn {
+.btn {
   color: #fff;
   }
 
-item {
-  border bottom: 2px solid rgba(255, 255, 255, .5);
+.btn:hover {
+
+}
+
+.item {
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
 
 @media screen and (min-width: 60em) {
 
   .item {
-      border right: 2px solid rgba(255, 255, 255, .5);
-      border-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 2px solid rgba(255, 255, 255, .5);
+    border-left: 2px solid rgba(255, 255, 255, .5);
   }
 
 }
